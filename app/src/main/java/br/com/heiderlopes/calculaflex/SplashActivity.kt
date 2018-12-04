@@ -23,6 +23,7 @@ class SplashActivity : AppCompatActivity() {
         if(isFirstOpen){
             markAppAlreadyOpen()
             load()
+            
         } else {
             showMain()
         }
