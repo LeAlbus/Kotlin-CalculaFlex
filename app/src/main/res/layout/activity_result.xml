@@ -22,6 +22,14 @@
         android:textSize="48sp"
         android:gravity="center" android:id="@+id/tvSuggestion"/>
 
+
+    <TextView
+        android:id="@+id/tvFuelRatio"
+        style="@style/header_subtitle"
+        android:gravity="center"
+        android:text="@string/label_ratio_fuel"
+        android:textStyle="normal" />
+
     <View style="@style/divider"/>
 
     <TextView
